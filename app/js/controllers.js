@@ -1,7 +1,7 @@
   angular.module('weatherApp.controllers', []).
 
   /* view1 controller */
-  controller('view1Controller', function($scope) {
+  controller('landingController', function($scope) {
 
   }).
 

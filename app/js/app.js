@@ -3,11 +3,12 @@
 // Declare app level module which depends on views, and components
 angular.module('weatherApp', [
   'ngRoute',
-  'weatherApp.controllers'
+  'weatherApp.controllers',
+  'ui.bootstrap'
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
 $routeProvider.
-	when("/view1", {templateUrl: "partials/view1.html", controller: "view1Controller"}).
+	when("/landing", {templateUrl: "partials/landing.html", controller: "landingController"}).
 	when("/view2", {templateUrl: "partials/view2.html", controller: "view2Controller"}).
-	otherwise({redirectTo: '/view1'});
+	otherwise({redirectTo: '/landing'});
 }]);

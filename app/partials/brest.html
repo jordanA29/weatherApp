@@ -26,28 +26,34 @@
         <tr>
           <th>Hour</th>
           <th>Temperature</th>
+          <th>Sky</th>
         </tr>
       </thead>
       <tbody>
         <tr ng-if="cityData.forecast[valDay].current != null ">
           <td>{{cityData.forecast[valDay].current.hour}}h</td>
           <td>{{cityData.forecast[valDay].current.temp}}°C</td>
+          <td><img src="assets/icon/weather/{{cityData.forecast[valDay].current.sky}}.svg" width="30" height="30"/></td>
         </tr>
         <tr ng-if="cityData.forecast[valDay].h01 != null ">
           <td>{{cityData.forecast[valDay].h01.hour}}h</td>
           <td>{{cityData.forecast[valDay].h01.temp}}°C</td>
+          <td><img src="assets/icon/weather/{{cityData.forecast[valDay].h01.sky}}.svg" width="30" height="30"/></td>          
         </tr>
         <tr ng-if="cityData.forecast[valDay].h07 != null ">
           <td>{{cityData.forecast[valDay].h07.hour}}h</td>
           <td>{{cityData.forecast[valDay].h07.temp}}°C</td>
+          <td><img src="assets/icon/weather/{{cityData.forecast[valDay].h07.sky}}.svg" width="30" height="30"/></td>          
         </tr>
         <tr ng-if="cityData.forecast[valDay].h13 != null ">
           <td>{{cityData.forecast[valDay].h13.hour}}h</td>
           <td>{{cityData.forecast[valDay].h13.temp}}°C</td>
+          <td><img src="assets/icon/weather/{{cityData.forecast[valDay].h13.sky}}.svg" width="30" height="30"/></td>          
         </tr>
         <tr ng-if="cityData.forecast[valDay].h19 != null ">
           <td>{{cityData.forecast[valDay].h19.hour}}h</td>
           <td>{{cityData.forecast[valDay].h19.temp}}°C</td>
+          <td><img src="assets/icon/weather/{{cityData.forecast[valDay].h19.sky}}.svg" width="30" height="30"/></td>          
         </tr>
       </tbody>
     </table>

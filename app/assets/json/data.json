@@ -67,11 +67,11 @@
           },
           "h07": {
             "hour": "07",
-            "sky": "sun",
+            "sky": "rain",
             "temp": "1",
             "windDirection": "SW",
             "windKM": "20",
-            "rainPercent": "30",
+            "rainPercent": "60",
             "humidityPercent": "60"
           }
         },
@@ -96,11 +96,11 @@
           },
           "h01": {
             "hour": "01",
-            "sky": "moon",
+            "sky": "rain_moon",
             "temp": "-1",
             "windDirection": "W",
             "windKM": "5",
-            "rainPercent": "25",
+            "rainPercent": "75",
             "humidityPercent": "60"
           },
           "h07": {
@@ -116,7 +116,7 @@
         {
           "h13": {
             "hour": "13",
-            "sky": "sun",
+            "sky": "cloud",
             "temp": "5",
             "windDirection": "W",
             "windKM": "0",

@@ -13,8 +13,15 @@
           console.log($scope.cityData);      		
         }
       }
+      //Temp data
       $scope.brCurrentTemp = $scope.cityData.forecast[0].current.temp;
       $scope.brCurrentIcon = $scope.cityData.forecast[0].current.sky;
+      // wind data
+      $scope.brCurrentWinDir = $scope.cityData.forecast[0].current.windDirection;
+      $scope.brCurrentWinKM = $scope.cityData.forecast[0].current.windKM;
+      //humidity
+      $scope.brCurrentRain = $scope.cityData.forecast[0].current.rainPercent;
+      $scope.brCurrentHum = $scope.cityData.forecast[0].current.humidityPercent;
       console.log($scope.brCurrentTemp); 
     });
 

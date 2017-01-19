@@ -8,8 +8,8 @@
         <div class="inline-block">            
           <button class="btn-custom" type="button" ng-click="showTempDetails()"><img src="assets/icon/weather/{{brCurrentIcon}}.svg" width="75" height="75"/> {{brCurrentTemp}}°C
           </button> 
-          <button class="btn-custom" type="button" ng-click="showWindDetails()"> Wind Button</button>
-          <button class="btn-custom" type="button" ng-click="showPrecDetails()"> Humidity Button</button>    
+           <button class="btn-wind btn-custom" type="button" ng-click="showWindDetails()"><img src="assets/icon/weather/wind.svg" width="60" height="60"/>Direction: {{brCurrentWinDir}} <br> Speed: {{brCurrentWinKM}} km/h</button>
+          <button class="btn-wind btn-custom" type="button" ng-click="showPrecDetails()"><img src="assets/icon/weather/humidity.svg" width="40" height="40"/>Humidity: {{brCurrentHum}}% <br> Rain Probability: {{brCurrentRain}} %</button>    
         </div>
       </div>
     </div>
@@ -24,7 +24,7 @@
     <table class="table tableCustom">
       <thead>
         <tr>
-          <th>Heure</th>
+          <th>Hour</th>
           <th>Temperature</th>
         </tr>
       </thead>
@@ -69,29 +69,29 @@
       </thead>
       <tbody>
         <tr ng-if="cityData.forecast[valDay].current != null ">
-          <td>{{cityData.forecast[valDay].current.hour}}</td>
+          <td>{{cityData.forecast[valDay].current.hour}}h</td>
           <td>{{cityData.forecast[valDay].current.windDirection}}</td>
-          <td>{{cityData.forecast[valDay].current.windKM}}</td>
+          <td>{{cityData.forecast[valDay].current.windKM}}km/h</td>
         </tr>
         <tr ng-if="cityData.forecast[valDay].h01 != null ">
-          <td>{{cityData.forecast[valDay].h01.hour}}</td>
+          <td>{{cityData.forecast[valDay].h01.hour}}h</td>
           <td>{{cityData.forecast[valDay].h01.windDirection}}</td>
-          <td>{{cityData.forecast[valDay].h01.windKM}}</td>
+          <td>{{cityData.forecast[valDay].h01.windKM}}km/h</td>
         </tr>
         <tr ng-if="cityData.forecast[valDay].h07 != null ">
-          <td>{{cityData.forecast[valDay].h07.hour}}</td>
+          <td>{{cityData.forecast[valDay].h07.hour}}h</td>
           <td>{{cityData.forecast[valDay].h07.windDirection}}</td>
-          <td>{{cityData.forecast[valDay].h07.windKM}}</td>
+          <td>{{cityData.forecast[valDay].h07.windKM}}km/h</td>
         </tr>
         <tr ng-if="cityData.forecast[valDay].h13 != null ">
-          <td>{{cityData.forecast[valDay].h13.hour}}</td>
+          <td>{{cityData.forecast[valDay].h13.hour}}h</td>
           <td>{{cityData.forecast[valDay].h13.windDirection}}</td>
-          <td>{{cityData.forecast[valDay].h13.windKM}}</td>
+          <td>{{cityData.forecast[valDay].h13.windKM}}km/h</td>
         </tr>
         <tr ng-if="cityData.forecast[valDay].h19 != null ">
-          <td>{{cityData.forecast[valDay].h19.hour}}</td>
+          <td>{{cityData.forecast[valDay].h19.hour}}h</td>
           <td>{{cityData.forecast[valDay].h19.windDirection}}</td>
-          <td>{{cityData.forecast[valDay].h19.windKM}}</td>
+          <td>{{cityData.forecast[valDay].h19.windKM}}km/h</td>
         </tr>
       </tbody>
     </table>
@@ -113,29 +113,29 @@
       </thead>
       <tbody>
         <tr ng-if="cityData.forecast[valDay].current != null ">
-          <td>{{cityData.forecast[valDay].current.hour}}</td>
-          <td>{{cityData.forecast[valDay].current.humidityPercent}}</td>
-          <td>{{cityData.forecast[valDay].current.rainPercent}}</td>
+          <td>{{cityData.forecast[valDay].current.hour}}h</td>
+          <td>{{cityData.forecast[valDay].current.humidityPercent}}%</td>
+          <td>{{cityData.forecast[valDay].current.rainPercent}}%</td>
         </tr>
         <tr ng-if="cityData.forecast[valDay].h01 != null ">
-          <td>{{cityData.forecast[valDay].h01.hour}}</td>
-          <td>{{cityData.forecast[valDay].h01.humidityPercent}}</td>
-          <td>{{cityData.forecast[valDay].h01.rainPercent}}</td>
+          <td>{{cityData.forecast[valDay].h01.hour}}h</td>
+          <td>{{cityData.forecast[valDay].h01.humidityPercent}}%</td>
+          <td>{{cityData.forecast[valDay].h01.rainPercent}}%</td>
         </tr>
         <tr ng-if="cityData.forecast[valDay].h07 != null ">
-          <td>{{cityData.forecast[valDay].h07.hour}}</td>
-          <td>{{cityData.forecast[valDay].h07.humidityPercent}}</td>
-          <td>{{cityData.forecast[valDay].h07.rainPercent}}</td>
+          <td>{{cityData.forecast[valDay].h07.hour}}h</td>
+          <td>{{cityData.forecast[valDay].h07.humidityPercent}}%</td>
+          <td>{{cityData.forecast[valDay].h07.rainPercent}}%</td>
         </tr>
         <tr ng-if="cityData.forecast[valDay].h13 != null ">
-          <td>{{cityData.forecast[valDay].h13.hour}}</td>
-          <td>{{cityData.forecast[valDay].h13.humidityPercent}}</td>
-          <td>{{cityData.forecast[valDay].h13.rainPercent}}</td>
+          <td>{{cityData.forecast[valDay].h13.hour}}h</td>
+          <td>{{cityData.forecast[valDay].h13.humidityPercent}}%</td>
+          <td>{{cityData.forecast[valDay].h13.rainPercent}}%</td>
         </tr>
         <tr ng-if="cityData.forecast[valDay].h19 != null ">
-          <td>{{cityData.forecast[valDay].h19.hour}}</td>
-          <td>{{cityData.forecast[valDay].h19.humidityPercent}}</td>
-          <td>{{cityData.forecast[valDay].h19.rainPercent}}</td>
+          <td>{{cityData.forecast[valDay].h19.hour}}h</td>
+          <td>{{cityData.forecast[valDay].h19.humidityPercent}}%</td>
+          <td>{{cityData.forecast[valDay].h19.rainPercent}}%</td>
         </tr>
       </tbody>
     </table>

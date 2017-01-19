@@ -8,10 +8,23 @@ angular.module('weatherApp', [
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
 $routeProvider.
-	when("/landing", {templateUrl: "partials/landing.html", controller: "landingController"}).
-	when("/brest", {templateUrl: "partials/brest.html", controller: "brestController"}).
-	when("/paris", {templateUrl: "partials/paris.html", controller: "parisController"}).
-	when("/nice", {templateUrl: "partials/nice.html", controller: "niceController"}).
-	when("/lille", {templateUrl: "partials/lille.html", controller: "lilleController"}).
+	when("/landing", {
+		templateUrl: "partials/landing.html",
+		controller: "landingController",
+ 	}).
+	when("/brest", {
+		templateUrl: "partials/brest.html",
+		controller: "brestController",
+	}).
+	when("/paris", {
+		templateUrl: "partials/paris.html", 
+		controller: "parisController"
+	}).
+	when("/nice", {
+		templateUrl: "partials/nice.html", 
+		controller: "niceController"}).
+	when("/lille", {
+		templateUrl: "partials/lille.html",
+		controller: "lilleController"}).
 	otherwise({redirectTo: '/landing'});
 }]);

@@ -24,7 +24,7 @@
             "temp": "3",
             "windDirection": "SW",
             "windKM": "20",
-            "rainPercent": "0",
+            "rainPercent": "5",
             "humidityPercent": "60"
           },
           "current": {
@@ -33,7 +33,7 @@
             "temp": "0",
             "windDirection": "SW",
             "windKM": "10",
-            "rainPercent": "0",
+            "rainPercent": "10",
             "humidityPercent": "50"
           }
         },
@@ -71,7 +71,7 @@
             "temp": "1",
             "windDirection": "SW",
             "windKM": "20",
-            "rainPercent": "0",
+            "rainPercent": "30",
             "humidityPercent": "60"
           }
         },
@@ -82,7 +82,7 @@
             "temp": "3",
             "windDirection": "S",
             "windKM": "5",
-            "rainPercent": "0",
+            "rainPercent": "20",
             "humidityPercent": "65"
           },
           "h19": {
@@ -100,7 +100,7 @@
             "temp": "-1",
             "windDirection": "W",
             "windKM": "5",
-            "rainPercent": "0",
+            "rainPercent": "25",
             "humidityPercent": "60"
           },
           "h07": {
@@ -109,7 +109,7 @@
             "temp": "-1",
             "windDirection": "W",
             "windKM": "5",
-            "rainPercent": "0",
+            "rainPercent": "30",
             "humidityPercent": "60"
           }
         },
@@ -125,7 +125,7 @@
           },
           "h19": {
             "hour": "19",
-            "sky": "cloud moon",
+            "sky": "cloud_moon",
             "temp": "2",
             "windDirection": "W",
             "windKM": "5",
@@ -202,7 +202,7 @@
           },
           "h19": {
             "hour": "19",
-            "sky": "moon rain",
+            "sky": "rain_moon",
             "temp": "3",
             "windDirection": "N",
             "windKM": "25",
@@ -317,7 +317,7 @@
         {
           "h13": {
             "hour": "13",
-            "sky": "cloud sun",
+            "sky": "sun",
             "temp": "11",
             "windDirection": "E",
             "windKM": "5",
@@ -335,7 +335,7 @@
           },
           "current": {
             "hour": "11",
-            "sky": "cloud sun",
+            "sky": "sun",
             "temp": "8",
             "windDirection": "S",
             "windKM": "0",
@@ -411,7 +411,7 @@
           },
           "h07": {
             "hour": "07",
-            "sky": "cloud sun",
+            "sky": "sun",
             "temp": "4",
             "windDirection": "S",
             "windKM": "0",
@@ -431,7 +431,7 @@
           },
           "h19": {
             "hour": "19",
-            "sky": "cloud moon",
+            "sky": "cloud_moon",
             "temp": "10",
             "windDirection": "O",
             "windKM": "25",
@@ -470,7 +470,7 @@
         {
           "h13": {
             "hour": "13",
-            "sky": "cloud sun",
+            "sky": "cloud",
             "temp": "11",
             "windDirection": "E",
             "windKM": "5",
@@ -488,7 +488,7 @@
           },
           "current": {
             "hour": "11",
-            "sky": "cloud sun",
+            "sky": "cloud",
             "temp": "8",
             "windDirection": "E",
             "windKM": "0",
@@ -564,7 +564,7 @@
           },
           "h07": {
             "hour": "07",
-            "sky": "cloud sun",
+            "sky": "cloud",
             "temp": "4",
             "windDirection": "S",
             "windKM": "0",
@@ -584,7 +584,7 @@
           },
           "h19": {
             "hour": "19",
-            "sky": "cloud moon",
+            "sky": "cloud_moon",
             "temp": "10",
             "windDirection": "S",
             "windKM": "25",

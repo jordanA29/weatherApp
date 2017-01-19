@@ -6,57 +6,51 @@
           <h1>Brest Weather</h1>
         </div>
         <div class="inline-block">            
-          <button class="btnTemp custom" type="button" ng-click="showTempDetails()"> Temp Button</button> 
-          <button class="btnWind custom" type="button"> Wind Button</button>
-          <button class="btnHum custom" type="button"> Humidity Button</button>    
+          <button class="btn-custom" type="button" ng-click="showTempDetails()"><img src="assets/icon/weather/{{brCurrentIcon}}.svg" width="75" height="75"/> {{brCurrentTemp}}°C
+          </button> 
+          <button class="btn-custom" type="button"> Wind Button</button>
+          <button class="btn-custom" type="button"> Humidity Button</button>    
         </div>
-        <br>
-        <div class="panel panel-default" ng-show="detailTempVisibled">
-          <div class="panel-heading">Température</div>
-          <input type="radio" ng-model="valDay" value="0"> Today
-          <input type="radio" ng-model="valDay" value="1"> D+1
-          <input type="radio" ng-model="valDay" value="2"> D+2
-          <input type="radio" ng-model="valDay" value="3"> D+3
-          <table class="table">
-            <thead>
-              <tr>
-                <th>Heure</th>
-                <th>Temperature</th>
-              </tr>
-              <tbody>
-                <tr ng-if="cityData.forecast[valDay].current != null ">
-                  <td>{{cityData.forecast[valDay].current.hour}}</td>
-                  <td>{{cityData.forecast[valDay].current.temp}}</td>
-                </tr>
-                <tr ng-if="cityData.forecast[valDay].h01 != null ">
-                  <td>{{cityData.forecast[valDay].h01.hour}}</td>
-                  <td>{{cityData.forecast[valDay].h01.temp}}</td>
-                </tr>
-                <tr ng-if="cityData.forecast[valDay].h07 != null ">
-                  <td>{{cityData.forecast[valDay].h07.hour}}</td>
-                  <td>{{cityData.forecast[valDay].h07.temp}}</td>
-                </tr>
-                <tr ng-if="cityData.forecast[valDay].h13 != null ">
-                  <td>{{cityData.forecast[valDay].h13.hour}}</td>
-                  <td>{{cityData.forecast[valDay].h13.temp}}</td>
-                </tr>
-                <tr ng-if="cityData.forecast[valDay].h19 != null ">
-                  <td>{{cityData.forecast[valDay].h19.hour}}</td>
-                  <td>{{cityData.forecast[valDay].h19.temp}}</td>
-                </tr>
-              </tbody>
-            </thead>
-          </div>
-        </div>
-
       </div>
-
     </div>
-
-
-    <footer class="footer">
-      <div class="container">
-        <p class="text-muted">An app by Jordan Arzel and Cyril Manda</p>
-      </div>
-    </footer>
   </div>
+  <div class="panel panel-default" ng-show="detailTempVisibled">  
+    <div class="panel-heading panel-heading-custom">Température
+    <input type="radio" ng-model="valDay" value="0"> Today
+    <input type="radio" ng-model="valDay" value="1"> D+1
+    <input type="radio" ng-model="valDay" value="2"> D+2
+    <input type="radio" ng-model="valDay" value="3"> D+3
+    </div>
+    <table class="table tableCustom">
+      <thead>
+        <tr>
+          <th>Heure</th>
+          <th>Temperature</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-if="cityData.forecast[valDay].current != null ">
+          <td>{{cityData.forecast[valDay].current.hour}}h</td>
+          <td>{{cityData.forecast[valDay].current.temp}}°C</td>
+        </tr>
+        <tr ng-if="cityData.forecast[valDay].h01 != null ">
+          <td>{{cityData.forecast[valDay].h01.hour}}h</td>
+          <td>{{cityData.forecast[valDay].h01.temp}}°C</td>
+        </tr>
+        <tr ng-if="cityData.forecast[valDay].h07 != null ">
+          <td>{{cityData.forecast[valDay].h07.hour}}h</td>
+          <td>{{cityData.forecast[valDay].h07.temp}}°C</td>
+        </tr>
+        <tr ng-if="cityData.forecast[valDay].h13 != null ">
+          <td>{{cityData.forecast[valDay].h13.hour}}h</td>
+        <td>{{cityData.forecast[valDay].h13.temp}}°C</td>
+        </tr>
+        <tr ng-if="cityData.forecast[valDay].h19 != null ">
+          <td>{{cityData.forecast[valDay].h19.hour}}h</td>
+          <td>{{cityData.forecast[valDay].h19.temp}}°C</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+</div>
+

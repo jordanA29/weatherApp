@@ -14,6 +14,7 @@
         }
       }
       $scope.brCurrentTemp = $scope.cityData.forecast[0].current.temp;
+      $scope.brCurrentIcon = $scope.cityData.forecast[0].current.sky;
       console.log($scope.brCurrentTemp); 
     });
 

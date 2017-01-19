@@ -6,8 +6,19 @@
   }).
 
   /* view2 controller */
-  controller('view2Controller', function($scope) {
+  controller('brestController', function($scope) {
+
+  }).
+
+  controller('niceController', function($scope) {
+
+  }).
+
+  controller('parisController', function($scope) {
+
+  }).
+
+  controller('lilleController', function($scope) {
 
   });
-
 

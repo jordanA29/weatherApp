@@ -1,13 +1,27 @@
-    <div class="test">
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-12">
-                </div>
+<div class = "mainWindow">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+            <div class="appTitle">
+                <h1>Weather Angular Application</h1>
+           </div>
+           <div class="btn-group dropdown " uib-dropdown is-open="status.isopen">
+                <button id="single-button" type="button" class="btn-transparent dropdown-toggle " uib-dropdown-toggle="" ng-disabled="disabled" aria-haspopup="true" aria-expanded="false">
+                   Pick up a city<span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" uib-dropdown-menu="" role="menu" aria-labelledby="single-button">
+                    <li role="menuitem"><a href="#/brest">Brest</a></li>
+                    <li role="menuitem"><a href="#/paris">Paris</a></li>
+                    <li role="menuitem"><a href="#/nice">Nice</a></li>           <li role="menuitem"><a href="#/lille">Lille</a></li>
+                </ul>
             </div>
-
         </div>
-        <!-- /.container -->
-
+      </div>
     </div>
-    <!-- /.test
+</div>
+<footer class="footer">
+    <div class="container">
+        <p class="text-muted">An app by Jordan Arzel and Cyril Manda</p>
+    </div>
+</footer>
+

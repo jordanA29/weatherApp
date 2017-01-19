@@ -13,7 +13,7 @@
             "hour": "13",
             "sky": "sun",
             "temp": "4",
-            "windDirection": "SO",
+            "windDirection": "SW",
             "windKM": "20",
             "rainPercent": "0",
             "humidityPercent": "50"
@@ -22,7 +22,7 @@
             "hour": "19",
             "sky": "moon",
             "temp": "3",
-            "windDirection": "SO",
+            "windDirection": "SW",
             "windKM": "20",
             "rainPercent": "0",
             "humidityPercent": "60"
@@ -31,7 +31,7 @@
             "hour": "11",
             "sky": "sun",
             "temp": "0",
-            "windDirection": "SO",
+            "windDirection": "SW",
             "windKM": "10",
             "rainPercent": "0",
             "humidityPercent": "50"
@@ -42,7 +42,7 @@
             "hour": "13",
             "sky": "sun",
             "temp": "5",
-            "windDirection": "O",
+            "windDirection": "W",
             "windKM": "20",
             "rainPercent": "0",
             "humidityPercent": "60"
@@ -51,7 +51,7 @@
             "hour": "19",
             "sky": "moon",
             "temp": "3",
-            "windDirection": "O",
+            "windDirection": "W",
             "windKM": "20",
             "rainPercent": "0",
             "humidityPercent": "50"
@@ -60,7 +60,7 @@
             "hour": "01",
             "sky": "moon",
             "temp": "2",
-            "windDirection": "SO",
+            "windDirection": "SW",
             "windKM": "20",
             "rainPercent": "0",
             "humidityPercent": "65"
@@ -69,7 +69,7 @@
             "hour": "07",
             "sky": "sun",
             "temp": "1",
-            "windDirection": "SO",
+            "windDirection": "SW",
             "windKM": "20",
             "rainPercent": "0",
             "humidityPercent": "60"
@@ -89,7 +89,7 @@
             "hour": "19",
             "sky": "moon",
             "temp": "1",
-            "windDirection": "NO",
+            "windDirection": "NW",
             "windKM": "10",
             "rainPercent": "0",
             "humidityPercent": "60"
@@ -98,7 +98,7 @@
             "hour": "01",
             "sky": "moon",
             "temp": "-1",
-            "windDirection": "O",
+            "windDirection": "W",
             "windKM": "5",
             "rainPercent": "0",
             "humidityPercent": "60"
@@ -107,7 +107,7 @@
             "hour": "07",
             "sky": "sun",
             "temp": "-1",
-            "windDirection": "O",
+            "windDirection": "W",
             "windKM": "5",
             "rainPercent": "0",
             "humidityPercent": "60"
@@ -118,7 +118,7 @@
             "hour": "13",
             "sky": "sun",
             "temp": "5",
-            "windDirection": "X",
+            "windDirection": "W",
             "windKM": "0",
             "rainPercent": "0",
             "humidityPercent": "65"
@@ -127,7 +127,7 @@
             "hour": "19",
             "sky": "cloud moon",
             "temp": "2",
-            "windDirection": "O",
+            "windDirection": "W",
             "windKM": "5",
             "rainPercent": "0",
             "humidityPercent": "70"
@@ -136,7 +136,7 @@
             "hour": "01",
             "sky": "moon",
             "temp": "-1",
-            "windDirection": "O",
+            "windDirection": "W",
             "windKM": "5",
             "rainPercent": "0",
             "humidityPercent": "70"
@@ -145,7 +145,7 @@
             "hour": "07",
             "sky": "sun",
             "temp": "-3",
-            "windDirection": "X",
+            "windDirection": "W",
             "windKM": "0",
             "rainPercent": "0",
             "humidityPercent": "80"
@@ -184,7 +184,7 @@
             "hour": "11",
             "sky": "cloud",
             "temp": "5",
-            "windDirection": "NO",
+            "windDirection": "NW",
             "windKM": "5",
             "rainPercent": "0",
             "humidityPercent": "55"
@@ -195,7 +195,7 @@
             "hour": "13",
             "sky": "rain",
             "temp": "9",
-            "windDirection": "NO",
+            "windDirection": "NW",
             "windKM": "30",
             "rainPercent": "80",
             "humidityPercent": "60"
@@ -213,7 +213,7 @@
             "hour": "01",
             "sky": "cloud",
             "temp": "3",
-            "windDirection": "NO",
+            "windDirection": "NW",
             "windKM": "5",
             "rainPercent": "15",
             "humidityPercent": "75"
@@ -233,7 +233,7 @@
             "hour": "13",
             "sky": "cloud",
             "temp": "6",
-            "windDirection": "X",
+            "windDirection": "NE",
             "windKM": "0",
             "rainPercent": "0",
             "humidityPercent": "60"
@@ -251,7 +251,7 @@
             "hour": "01",
             "sky": "moon",
             "temp": "1",
-            "windDirection": "X",
+            "windDirection": "S",
             "windKM": "0",
             "rainPercent": "15",
             "humidityPercent": "55"
@@ -260,7 +260,7 @@
             "hour": "07",
             "sky": "cloud",
             "temp": "5",
-            "windDirection": "X",
+            "windDirection": "S",
             "windKM": "0",
             "rainPercent": "0",
             "humidityPercent": "60"
@@ -280,7 +280,7 @@
             "hour": "19",
             "sky": "rain",
             "temp": "8",
-            "windDirection": "O",
+            "windDirection": "W",
             "windKM": "35",
             "rainPercent": "100",
             "humidityPercent": "85"
@@ -298,7 +298,7 @@
             "hour": "07",
             "sky": "rain",
             "temp": "2",
-            "windDirection": "O",
+            "windDirection": "W",
             "windKM": "30",
             "rainPercent": "90",
             "humidityPercent": "85"
@@ -337,7 +337,7 @@
             "hour": "11",
             "sky": "cloud sun",
             "temp": "8",
-            "windDirection": "X",
+            "windDirection": "S",
             "windKM": "0",
             "rainPercent": "0",
             "humidityPercent": "15"
@@ -366,7 +366,7 @@
             "hour": "01",
             "sky": "moon",
             "temp": "4",
-            "windDirection": "X",
+            "windDirection": "SE",
             "windKM": "0",
             "rainPercent": "0",
             "humidityPercent": "40"
@@ -413,7 +413,7 @@
             "hour": "07",
             "sky": "cloud sun",
             "temp": "4",
-            "windDirection": "X",
+            "windDirection": "S",
             "windKM": "0",
             "rainPercent": "0",
             "humidityPercent": "25"
@@ -490,7 +490,7 @@
             "hour": "11",
             "sky": "cloud sun",
             "temp": "8",
-            "windDirection": "X",
+            "windDirection": "E",
             "windKM": "0",
             "rainPercent": "0",
             "humidityPercent": "60"
@@ -519,7 +519,7 @@
             "hour": "01",
             "sky": "moon",
             "temp": "4",
-            "windDirection": "X",
+            "windDirection": "S",
             "windKM": "0",
             "rainPercent": "0",
             "humidityPercent": "60"
@@ -566,7 +566,7 @@
             "hour": "07",
             "sky": "cloud sun",
             "temp": "4",
-            "windDirection": "X",
+            "windDirection": "S",
             "windKM": "0",
             "rainPercent": "0",
             "humidityPercent": "55"
@@ -586,7 +586,7 @@
             "hour": "19",
             "sky": "cloud moon",
             "temp": "10",
-            "windDirection": "O",
+            "windDirection": "S",
             "windKM": "25",
             "rainPercent": "20",
             "humidityPercent": "50"
@@ -604,7 +604,7 @@
             "hour": "07",
             "sky": "sun",
             "temp": "6",
-            "windDirection": "O",
+            "windDirection": "W",
             "windKM": "5",
             "rainPercent": "0",
             "humidityPercent": "70"

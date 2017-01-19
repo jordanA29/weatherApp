@@ -1,12 +1,19 @@
   angular.module('weatherApp.controllers', []).
 
-  /* view1 controller */
   controller('landingController', function($scope) {
-
-  }).
-
-  /* view2 controller */
-  controller('brestController', function($scope) {
+  }).	
+  controller('brestController', function($scope,$routeParams,$http) {
+  	$scope.result;
+    $http.get('assets/json/data.json').success(function(data) {
+        $scope.result = angular.fromJson(data);
+        console.log($scope.result);
+            for(city of $scope.result.cities){
+    			if(city.name =="Brest"){
+    				$scope.cityData = city;
+    				console.log(city);    		
+    			}
+    		}
+    });
 
   }).
 

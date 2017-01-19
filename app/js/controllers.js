@@ -24,12 +24,19 @@
     $scope.valDay = 0;
     $scope.result;
     $scope.showTempDetails = function(){
+      $scope.detailWindVisibled = false;
+      $scope.detailPrecVisibled = false;
       $scope.detailTempVisibled = !$scope.detailTempVisibled;
+
     }
     $scope.showWindDetails = function(){
+      $scope.detailTempVisibled = false;
+      $scope.detailPrecVisibled = false;
       $scope.detailWindVisibled = !$scope.detailWindVisibled;
     }
     $scope.showPrecDetails = function(){
+      $scope.detailTempVisibled = false;
+      $scope.detailWindVisibled =  false;
       $scope.detailPrecVisibled = !$scope.detailPrecVisibled;
     }
     
